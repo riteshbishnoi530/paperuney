@@ -70,7 +70,7 @@ const BackToEarn = () => {
                                 <p className="font-luckiest pointer-events-none mt-4 uppercase font-normal text-[52px] sm:text-custom-8xl text-center leading-[100%] text-white drop-shadow-[6px_6px_0px_#000000]">
                                     bake to earn
                                 </p>
-                                <button className="cursor-pointer mt-5 scale-105 transition-all ease-linear duration-300">
+                                <button className=" hover:scale-105 ease-line cursor-pointer mt-5 scale-105 transition-all ease-linear duration-300">
                                     <Image
                                         src="/assets/images/earn-now-btn.webp"
                                         alt="btn"
@@ -85,11 +85,11 @@ const BackToEarn = () => {
                                 width={656}
                                 height={828}
                                 alt="pizza delever"
-                                className="lg:max-w-[656px] max-w-[468px] mx-auto sm:w-full pointer-events-none -ml-14 sm:mx-auto lg:mx-0 max-sm:-mt-8"
+                                className="lg:max-w-[656px] max-lg:-mb-[180px] max-md:-mb-[450px] max-w-[468px] !mx-auto sm:w-full pointer-events-none -ml-14"
                             />
                         </div>
-                        <div className="bg-cover bg-no-repeat bg-center relative bg-[url('/assets/images/counter-image.webp')] md:pt-[160px] lg:pt-[320px]">
-                            <div className="flex flex-wrap justify-center lg:flex-nowrap lg:flex-row mx-auto max-w-[1240px] w-full px-5 gap-10 xl:gap-[60px] pb-[75px] sm:pb-8 pt-10 pizzanomics-gradient">
+                        <div className="bg-cover max-md:min-h-[1000px] max-lg:min-h-[800px] bg-no-repeat bg-center relative bg-[url('/assets/images/counter-image.webp')] md:pt-[160px] lg:pt-[320px]">
+                            <div className="flex max-lg:translate-y-[300px] max-md:translate-y-[630px] flex-wrap justify-center lg:flex-nowrap lg:flex-row mx-auto max-w-[1240px] w-full px-5 gap-10 xl:gap-[60px] pb-[75px] sm:pb-8">
                                 <Image
                                     src="/assets/images/coin-gecko.webp"
                                     alt="coin"

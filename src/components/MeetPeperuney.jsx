@@ -16,13 +16,13 @@ function MeetPeperuney() {
                             <div className='w-full h-[1px] bg-[#0E0E0E]'></div>
                             <div className='flex items-center justify-between mt-[21px]'>
                                 <p className='font-schoolbell text-[32px] max-md:text-2xl'>FEELS GREAT MAN!</p>
-                                <button className='bg-[url("/assets/images/btn-bg.webp")] bg-center bg-cover bg-no-repeat font-luckiest text-white text-[28px] max-md:text-base py-[6px] px-[23px]'>Manifesto </button>
+                                <button className='hover:scale-105 transition-all duration-300 ease-line bg-[url("/assets/images/btn-bg.webp")] bg-center bg-cover bg-no-repeat font-luckiest text-white text-[28px] max-md:text-base py-[6px] px-[23px]'>Manifesto </button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <button className='absolute bottom-[143px] left-1/2 -translate-1/2 bg-[url("/assets/images/btn-bg.webp")] bg-center bg-cover bg-no-repeat font-luckiest text-white text-[28px] max-md:text-base py-[6px] px-[23px]'>Manifesto </button>
+            <button className='hover:scale-105 transition-all duration-300 ease-line absolute bottom-[143px] left-1/2 -translate-1/2 bg-[url("/assets/images/btn-bg.webp")] bg-center bg-cover bg-no-repeat font-luckiest text-white text-[28px] max-md:text-base py-[6px] px-[23px]'>Manifesto </button>
         </div>
     )
 }

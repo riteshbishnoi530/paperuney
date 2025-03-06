@@ -13,7 +13,7 @@ function Header() {
         <div className='flex gap-2'>
             {HEADER_LIST.map((item, index) => (
                 <Link target='_blank' key={index} href={item.link}>
-                    <Image className='max-md:max-w-10' width={77} height={67} src={item.image} alt="media link"/>
+                    <Image className='max-md:max-w-10 hover:scale-105 transition-all duration-300 ease-linear' width={77} height={67} src={item.image} alt="media link"/>
                 </Link>
             ))}
         </div>
