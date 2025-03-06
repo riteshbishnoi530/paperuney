@@ -85,10 +85,10 @@ const BackToEarn = () => {
                                 width={656}
                                 height={828}
                                 alt="pizza delever"
-                                className="lg:max-w-[656px] max-lg:-mb-[180px] max-md:-mb-[450px] max-w-[468px] !mx-auto sm:w-full pointer-events-none -ml-14"
+                                className="lg:max-w-[656px] -mb-30 max-lg:-mb-[180px] max-md:-mb-[450px] max-w-[468px] !mx-auto sm:w-full pointer-events-none -ml-14"
                             />
                         </div>
-                        <div className="bg-cover max-md:min-h-[1000px] max-lg:min-h-[800px] bg-no-repeat bg-center relative bg-[url('/assets/images/counter-image.webp')] md:pt-[160px] lg:pt-[320px]">
+                        <div className="bg-cover max-md:min-h-[1000px] h-full max-lg:min-h-[800px] bg-no-repeat bg-center relative bg-[url('/assets/images/counter-image.webp')] md:pt-[160px] lg:pt-[320px]">
                             <div className="flex max-lg:translate-y-[300px] max-md:translate-y-[630px] flex-wrap justify-center lg:flex-nowrap lg:flex-row mx-auto max-w-[1240px] w-full px-5 gap-10 xl:gap-[60px] pb-[75px] sm:pb-8">
                                 <Image
                                     src="/assets/images/coin-gecko.webp"

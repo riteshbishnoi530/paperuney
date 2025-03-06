@@ -12,7 +12,7 @@ function HowToBuy() {
       <Image width={1440} height={195} className='w-full' src="/assets/images/top-layer-image.webp" alt='top layer' />
       <Image className='mx-auto pt-[50px] max-sm:pt-10 pb-6 max-md:max-w-[288px]' width={443} height={155} src="/assets/images/how-to-buy-heading.webp" alt='heading' />
       <div className='bg-[url("/assets/images/how-to-buy-bg.webp")] bg-top bg-no-repeat bg-cover -mt-1 px-4'>
-        <div className='flex max-lg:flex-wrap gap-[37px] justify-center pt-[300px] max-lg:pt-[200px]'>
+        <div className='flex max-lg:flex-wrap gap-[37px] max-lg:gap-y-20 justify-center pt-[300px] max-lg:pt-[200px]'>
           {HOW_TO_BUY_LIST.map((item, index) => (
             <div key={index}>
               <div className={`max-w-[322px] border-4 border-black bg-white p-4 ${index === 1 ? "lg:-translate-y-36" : ""}`}>
@@ -23,8 +23,8 @@ function HowToBuy() {
             </div>
           ))}
         </div>
-        <div className='border-4 border-black bg-white max-w-[350px] mx-auto p-3 flex gap-3 max-lg:mt-5 lg:-translate-y-26'>
-            <p className='text-lg font-schoolbell'>CA: 0x93jr98fo2ihf89hf0o82hf0ohi9f0</p>
+        <div className='border-4 max-lg:hidden border-black bg-white max-w-[345px] mx-auto p-3 flex gap-[11px] lg:-translate-y-26'>
+            <p className='text-lg font-schoolbell tracking-[0%]'>CA: 0x93jr98fo2ihf89hf0o82hf0ohi9f0</p>
             <Image width={32} height={32} src="/assets/images/paste-icon.webp" alt='paste icon'/>
           </div>
         <Image className='mx-auto h-full w-full max-w-[1000px] lg:-mt-10' width={1200} height={495} src="/assets/images/pizza.webp" alt='pizza' />
