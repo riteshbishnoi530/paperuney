@@ -95,7 +95,7 @@ const BackToEarn = () => {
                                     alt="coin"
                                     width={360}
                                     height={140}
-                                    className="lg:w-[30%] md:w-[340px] w-[236px] pointer-events-none object-contain h-[92px] sm:h-auto sm:w-[280px]"
+                                    className="max-lg:w-[250px]  md:w-[340px] w-[236px] pointer-events-none object-contain h-[92px] sm:h-auto sm:w-[280px]"
                                 />
                                 <Image
                                     width={360}

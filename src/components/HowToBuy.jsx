@@ -9,9 +9,10 @@ function HowToBuy() {
       <div className='bg-[#067A52] pt-[30px]'>
         <CustomSlider />
       </div>
-      <div className='bg-[url("/assets/images/how-to-buy-bg.webp")] bg-bottom bg-no-repeat bg-cover -mt-1 px-4'>
-        <Image className='mx-auto pt-[245px] max-md:max-w-[288px]' width={443} height={155} src="/assets/images/how-to-buy-heading.webp" alt='heading' />
-        <div className='flex max-lg:flex-wrap gap-[37px] justify-center mt-[311px]'>
+      <Image width={1440} height={195} className='w-full' src="/assets/images/top-layer-image.webp" alt='top layer'/>
+      <Image className='mx-auto pt-[50px] max-sm:pt-10 pb-6 max-md:max-w-[288px]' width={443} height={155} src="/assets/images/how-to-buy-heading.webp" alt='heading' />
+      <div className='bg-[url("/assets/images/how-to-buy-bg.webp")] bg-top bg-no-repeat bg-cover -mt-1 px-4'>
+        <div className='flex max-lg:flex-wrap gap-[37px] justify-center pt-[200px] max-lg:pt-'>
           {HOW_TO_BUY_LIST.map((item, index) => (
             <div key={index}>
               <div className={`max-w-[322px] border-4 border-black bg-white p-4 ${index === 1 ? "lg:-translate-y-14":""}`}>
