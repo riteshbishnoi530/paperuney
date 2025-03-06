@@ -70,16 +70,7 @@ const BackToEarn = () => {
                 <p className="font-luckiest pointer-events-none mt-4 uppercase font-normal text-[52px] sm:text-custom-8xl text-center leading-[100%] text-white drop-shadow-[6px_6px_0px_#000000]">
                   bake to earn
                 </p>
-                <button className="mt-5 sm:block hidden transition-all ease-linear duration-300">
-                  <Image
-                    src="/assets/images/earn-now-btn.webp"
-                    alt="btn"
-                    className="w-full max-w-[313px] pointer-events-none"
-                    width={313}
-                    height={97}
-                  />
-                </button>
-                <button className="mt-7 sm:hidden block transition-all ease-linear duration-300">
+                <button className="cursor-pointer mt-5 scale-105 transition-all ease-linear duration-300">
                   <Image
                     src="/assets/images/earn-now-btn.webp"
                     alt="btn"
