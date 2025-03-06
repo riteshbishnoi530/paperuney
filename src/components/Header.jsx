@@ -9,7 +9,7 @@ function Header() {
         <Image className='max-md:max-w-[120px]' width={262} height={75} src="/assets/images/logo.webp" alt="logo"/>
         </Link>
         <div className='flex gap-10 max-sm:gap-3 items-center'>
-          <Image className='max-w-[41px] max-sm:max-w-[30px] w-full h-full' width={41} height={31} src="/assets/images/flag.webp" alt='flag'/>
+          <Image className='max-w-[69px] max-sm:max-w-[30px] w-full h-full' width={69} height={31} src="/assets/images/flag.webp" alt='flag'/>
         <div className='flex gap-2'>
             {HEADER_LIST.map((item, index) => (
                 <Link target='_blank' key={index} href={item.link}>
