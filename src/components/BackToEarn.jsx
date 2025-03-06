@@ -50,7 +50,7 @@ const BackToEarn = () => {
                         <Image
                             src="/assets/images/zero-tax-layer.webp"
                             alt="taxLayer"
-                            className="sm:w-full object-cover w-[610px] max-w-[610px] sm:max-w-full pointer-events-none"
+                            className="max-lg:w-full max-lg:max-w-full object-cover w-[610px] max-w-[610px] sm:max-w-full pointer-events-none"
                             width={610}
                             height={327}
                         />
