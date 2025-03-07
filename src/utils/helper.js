@@ -44,3 +44,8 @@ export const HOW_TO_BUY_LIST = [
         description:"Hit up a Solana DEX like Meteora or Jupiter, swap your SOL for $PepeRuney, and lock it in. Hell yeah!"
     }
 ]
+
+export const FLAGS_LIST = [
+    { src: '/assets/images/flag.webp'},
+    { src: '/assets/images/india-flag.webp'},
+];
