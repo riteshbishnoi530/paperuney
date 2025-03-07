@@ -6,7 +6,7 @@ function Header() {
   return (
     <div className='flex justify-between items-center max-w-[1332px] mx-auto px-4'>
         <Link href="/">
-        <Image className='max-md:max-w-[120px]' width={262} height={75} src="/assets/images/logo.webp" alt="logo"/>
+        <Image className='max-md:max-w-[120px] pointer-events-none' width={262} height={75} src="/assets/images/logo.webp" alt="logo"/>
         </Link>
         <div className='flex gap-10 max-sm:gap-3 items-center'>
           <Image className='max-w-[69px] max-sm:max-w-[30px] w-full h-full' width={69} height={31} src="/assets/images/flag.webp" alt='flag'/>
