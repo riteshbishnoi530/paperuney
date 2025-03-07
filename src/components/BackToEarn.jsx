@@ -4,7 +4,7 @@ import CustomSlider from './common/CustomSlider';
 const BackToEarn = () => {
     return (
         <>
-            <div className="relative bg-[#DA291C] overflow-hidden max-w-[1920px] mx-auto">
+            <div className="relative bg-[#DA291C] overflow-hidden">
                 <Image
                     className="sm:w-full max-w-[972px] w-[972px] relative z-10 object-contain sm:max-w-full pointer-events-none"
                     src="/assets/images/pizza-layer.webp"
