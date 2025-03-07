@@ -5,7 +5,7 @@ import { HOW_TO_BUY_LIST } from '@/utils/helper'
 
 function HowToBuy() {
   return (
-    <div>
+    <>
       <div className='bg-[#067A52] pt-[30px]'>
         <CustomSlider />
       </div>
@@ -30,7 +30,7 @@ function HowToBuy() {
         <Image className='mx-auto h-full w-full max-w-[1000px] lg:-mt-10 max-lg:mt-5' width={1200} height={495} src="/assets/images/pizza.webp" alt='pizza' />
       </div>
       <Image className='w-full -mt-10 pointer-events-none' width={1500} height={134} src="/assets/images/pizza-box-pattern.webp" alt='pattren' />
-    </div>
+    </>
   )
 }
 

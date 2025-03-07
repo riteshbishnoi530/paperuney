@@ -5,7 +5,7 @@ import CustomSlider from './common/CustomSlider'
 
 function Hero() {
     return (
-        <div>
+        <>
             <div className='pt-[30px] pb-7 bg-[url("/assets/images/hero-bg.webp")] bg-no-repeat bg-cover bg-center'>
                 <Header />
                 <div>
@@ -17,7 +17,7 @@ function Hero() {
             <div className='bg-[#DA291C] border border-t-4 border-b-4 border-black py-[30px] max-md:py-5'>
                 <CustomSlider />
             </div>
-        </div>
+        </>
     )
 }
 
