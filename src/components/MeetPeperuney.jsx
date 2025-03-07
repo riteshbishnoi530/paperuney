@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 function MeetPeperuney() {
     return (
-        <div className='relative bg-[url("/assets/images/meet-peperuney.webp")] max-sm:bg-[url("/assets/images/meet-peperuney-mobile.webp")] bg-no-repeat bg-cover bg-center max-sm:bg-bottom min-h-[2239px]'>
+        <div className='relative bg-[url("/assets/images/meet-peperuney.webp")] max-sm:bg-[url("/assets/images/meet-peperuney-mobile.webp")] bg-no-repeat bg-cover bg-center max-sm:bg-bottom min-h-[2239px] max-sm:min-h-[2000px]'>
             <Image className='w-full h-full' width={100} height={200} src="/assets/images/melting-cheese.webp" alt="melting cheese" />
             <div className='flex max-w-[1332px] mx-auto max-[1348.98px]:flex-col-reverse  pl-0 pr-4'>
                 <Image className='max-w-[580px] w-full mx-auto max-[1348.98px]:-mt-14 relative z-[1]' width={580} height={530} src="/assets/images/art-work.webp" alt='art work' />
