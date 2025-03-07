@@ -41,7 +41,7 @@ const BackToEarn = () => {
                     </div>
                 </div>
                 <div className="flex flex-col lg:flex-row justify-between relative lg:-mt-4">
-                    <div className="bg-black -rotate-[4deg] -mx-7 xl:h-[111px] lg:w-[630px] px-7 my-auto relative z-10">
+                    <div className="bg-black -rotate-[4deg] -mx-7 xl:h-[111px] lg:w-[630px] px-7 mt-14 h-fit relative z-10">
                         <p className="text-white font-luckiest font-normal text-[52px] sm:text-[75px] xl:text-[92px] text-center lg:text-left lg:ml-11 leading-[100%] text-nowrap mb-12 lg:mb-2.5 my-2.5">
                             LP BURNED
                         </p>
@@ -50,7 +50,7 @@ const BackToEarn = () => {
                         <Image
                             src="/assets/images/zero-tax-layer.webp"
                             alt="taxLayer"
-                            className="max-lg:w-full max-lg:max-w-full object-cover w-[610px] max-w-[610px] sm:max-w-full pointer-events-none"
+                            className="w-full pointer-events-none"
                             width={610}
                             height={327}
                         />
@@ -60,6 +60,7 @@ const BackToEarn = () => {
                     <div className="bg-[url('/assets/images/pizza-bg-image.webp')] max-sm:bg-mobile-layer bg-100 -mt-[207px] bg-cover bg-no-repeat bg-center min-h-[1190px] pt-[162px]">
                         <div className="flex w-full flex-col lg:flex-row gap-7 sm:gap-12 xl:ml-auto px-5 xl:px-0 xl:mx-11 mx-auto xl:w-fit md:-mb-[200px]">
                             <div className="max-w-[503px] w-full pt-7 mx-auto lg:mx-0 flex flex-col items-center relative z-10">
+                                <p className='text-[32px] text-white font-schoolbell absolute top-10 right-0 rotate-[24deg]'>Click on me</p>
                                 <Image
                                     src="/assets/images/window.webp"
                                     alt="window"
@@ -67,18 +68,8 @@ const BackToEarn = () => {
                                     width={500}
                                     height={300}
                                 />
-                                <p className="font-luckiest pointer-events-none mt-4 uppercase font-normal text-[52px] sm:text-custom-8xl text-center leading-[100%] text-white drop-shadow-[6px_6px_0px_#000000]">
-                                    bake to earn
-                                </p>
-                                <button className=" hover:scale-105 ease-line cursor-pointer mt-5 scale-105 transition-all ease-linear duration-300">
-                                    <Image
-                                        src="/assets/images/earn-now-btn.webp"
-                                        alt="btn"
-                                        className="w-full max-w-[313px] pointer-events-none"
-                                        width={313}
-                                        height={97}
-                                    />
-                                </button>
+                               <Image className='max-md:max-w-[335px] mt-5' width={503} height={80} src="/assets/images/bake-to-earn-text.webp" alt='bake to earn text'/>
+                               <button className='hover:scale-105 transition-all duration-300 ease-line mt-5 bg-[url("/assets/images/btn-bg.webp")] bg-center bg-[length:100%] bg-no-repeat font-luckiest text-white text-[28px] max-md:text-base py-7 w-[313px]'>Earn now </button>
                             </div>
                             <Image
                                 src="/assets/images/pizza-delever.webp"
@@ -88,7 +79,7 @@ const BackToEarn = () => {
                                 className="lg:max-w-[656px] -mb-30 max-lg:-mb-[180px] max-md:-mb-[450px] max-w-[468px] !mx-auto sm:w-full pointer-events-none -ml-14"
                             />
                         </div>
-                        <div className="bg-cover max-md:min-h-[1000px] h-full max-lg:min-h-[800px] bg-no-repeat bg-center relative bg-[url('/assets/images/counter-image.webp')] md:pt-[160px] lg:pt-[320px]">
+                        <div className="bg-cover max-md:min-h-[1000px] h-full max-lg:min-h-[800px] bg-no-repeat bg-top relative bg-[url('/assets/images/counter-image.webp')] md:pt-[160px] lg:pt-[320px]">
                             <div className="flex max-lg:translate-y-[300px] max-md:translate-y-[630px] flex-wrap justify-center lg:flex-nowrap lg:flex-row mx-auto max-w-[1240px] w-full px-5 gap-10 xl:gap-[60px] pb-[75px] sm:pb-8">
                                 <Image
                                     src="/assets/images/coin-gecko.webp"

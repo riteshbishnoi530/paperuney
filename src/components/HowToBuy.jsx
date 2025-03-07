@@ -23,7 +23,7 @@ function HowToBuy() {
             </div>
           ))}
         </div>
-        <div className='border-4 max-lg:hidden border-black bg-white max-w-[345px] mx-auto p-3 flex gap-[11px] lg:-translate-y-26'>
+        <div className='border-4 items-center max-lg:hidden border-black bg-white max-w-[345px] mx-auto p-3 flex gap-[11px] lg:-translate-y-26'>
             <p className='text-lg font-schoolbell tracking-[0%]'>CA: 0x93jr98fo2ihf89hf0o82hf0ohi9f0</p>
             <Image className='cursor-pointer' width={32} height={32} src="/assets/images/paste-icon.webp" alt='paste icon'/>
           </div>
