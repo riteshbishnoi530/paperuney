@@ -25,7 +25,7 @@ function HowToBuy() {
         </div>
         <div className='border-4 items-center max-lg:hidden border-black bg-white max-w-[345px] mx-auto p-3 flex gap-[11px] lg:-translate-y-26'>
             <p className='text-lg font-schoolbell tracking-[0%]'>CA: 0x93jr98fo2ihf89hf0o82hf0ohi9f0</p>
-            <Image className='cursor-pointer' width={32} height={32} src="/assets/images/paste-icon.webp" alt='paste icon'/>
+            <Image className='cursor-pointer hover:scale-105 transition-all duration-300 ease-linear' width={32} height={32} src="/assets/images/paste-icon.webp" alt='paste icon'/>
           </div>
         <Image className='mx-auto h-full w-full max-w-[1000px] lg:-mt-10 max-lg:mt-5' width={1200} height={495} src="/assets/images/pizza.webp" alt='pizza' />
       </div>
