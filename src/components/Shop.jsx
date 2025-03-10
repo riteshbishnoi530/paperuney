@@ -12,7 +12,7 @@ const Shop = () => {
   return (
     <>
       <div className="border-y-[4px] border-solid border-[#000000] w-full h-[39px] bg-[#8B8581]"></div>
-      <div className='bg-center bg-cover bg-no-repeat h-[900px] relative bg-[url("/assets/images/tv-room.webp")] max-w-[1920px] mx-auto'>
+      <div className='bg-center bg-cover bg-no-repeat h-[900px] relative bg-[url("/assets/images/tv-room.webp")] mx-auto'>
         <div className="max-w-[634px] ml-auto">
 
           <Image
@@ -34,7 +34,7 @@ const Shop = () => {
 
         <div
           onClick={youtubeHandler}
-          className="bg-cover bg-center bg-no-repeat max-w-[477px] mt-4 max-xl:left-[44.5%] 2xl:h-[495px] absolute 2xl:top-[60.9%] xl:top-[58%] max-xl:top-[58%] left-[45.8%] translate-x-[-50%] translate-y-[-50%] cursor-pointer"
+          className="bg-cover bg-center bg-no-repeat max-w-[477px] 2xl:max-w-[500px] 2xl:max-h-[400px] mt-4 max-xl:left-[44.5%] 2xl:h-[495px] absolute 2xl:top-[60.9%] xl:top-[58%] max-xl:top-[58%] left-[45.8%] translate-x-[-50%] translate-y-[-50%] cursor-pointer"
         >
           {!isVideoPlaying ? (
             <Image
