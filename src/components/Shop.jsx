@@ -32,7 +32,7 @@ const Shop = () => {
           className="w-full max-w-[668px] absolute bottom-0 right-0 z-10"
         />
 
-<div
+        <div
           onClick={youtubeHandler}
           className="bg-cover bg-center bg-no-repeat max-w-[477px] mt-4 max-xl:left-[44.5%] 2xl:h-[495px] absolute 2xl:top-[60.9%] xl:top-[58%] max-xl:top-[58%] left-[45.8%] translate-x-[-50%] translate-y-[-50%] cursor-pointer"
         >
