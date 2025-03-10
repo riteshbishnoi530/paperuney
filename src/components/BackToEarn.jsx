@@ -69,7 +69,7 @@ const BackToEarn = () => {
                                     height={300}
                                 />
                                <Image className='max-md:max-w-[335px] mt-5' width={503} height={80} src="/assets/images/bake-to-earn-text.webp" alt='bake to earn text'/>
-                               <button className='cursor-pointer hover:scale-105 transition-all duration-300 ease-line mt-5 bg-[url("/assets/images/btn-bg.webp")] bg-center bg-[length:100%] bg-no-repeat font-luckiest text-white text-[28px] max-md:text-base py-7 w-[313px]'>Earn now </button>
+                               <button className='cursor-pointer hover:scale-105 transition-all duration-300 ease-line mt-5 bg-[url("/assets/images/btn-bg.webp")] bg-center bg-[length:100%] bg-no-repeat font-luckiest text-white text-[28px] max-md:text-xl py-7 w-[313px] max-md:max-w-[200px]'>Earn now </button>
                             </div>
                             <Image
                                 src="/assets/images/pizza-delever.webp"
