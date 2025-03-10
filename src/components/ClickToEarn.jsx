@@ -7,19 +7,20 @@ const ClickToEarn = () => {
             <div className='bg-cover pt-[100px] bg-center bg-no-repeat bg-[url("/assets/images/casino-bg.webp")] mx-auto'>
                 <div className="flex max-lg:flex-col-reverse max-w-[1440px] mx-auto px-4 relative">
                     <Image width={400} height={500} className='lg:absolute left-0 bottom-0 max-lg:-mt-[200px]' src="/assets/images/peperuney-arcade.webp" alt='arcade' />
-                    <div className='max-w-[655px] ml-auto relative z-10'>
+                    <div className='max-w-[655px] lg:pb-[127px] ml-auto relative z-10'>
                         <div className="relative max-w-[555px] translate-x-[-45px] max-md:translate-x-0 ml-auto z-10 max-md:!mx-auto">
                             <Image
                                 src="/assets/images/casino-heading.webp"
                                 alt="heading"
                                 width={555}
                                 height={160}
-                                className="w-full pointer-events-none max-md:max-w-[205px] max-md:bottom-[-45%]"
+                                className="w-full mx-auto pointer-events-none max-md:max-w-[205px] max-md:bottom-[-45%]"
                             />
                         </div>
                         <div className="relative max-w-[682px] ml-auto">
                             <Image
                                 src="/assets/images/casino-frame.webp"
+                                alt='frame'
                                 width={682}
                                 height={358}
                                 className="w-full max-w-[682px] h-full absolute"
